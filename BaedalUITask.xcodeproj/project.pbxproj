@@ -14,7 +14,7 @@
 		0E5AE57D2872F088003473CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E5AE57C2872F088003473CB /* Assets.xcassets */; };
 		0E5AE5802872F088003473CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E5AE57E2872F088003473CB /* LaunchScreen.storyboard */; };
 		0E5D3AEC2878208F004509BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D3AEB2878208F004509BF /* HomeViewController.swift */; };
-		0E9038492877B69000290DA8 /* GithubTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E9038482877B69000290DA8 /* GithubTest.swift */; };
+		0E5D3B0E287879DF004509BF /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5D3B0D287879DE004509BF /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		0E5AE57F2872F088003473CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E5AE5812872F088003473CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E5D3AEB2878208F004509BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		0E9038482877B69000290DA8 /* GithubTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubTest.swift; sourceTree = "<group>"; };
+		0E5D3B0D287879DE004509BF /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +67,8 @@
 				0E5AE57C2872F088003473CB /* Assets.xcassets */,
 				0E5AE57E2872F088003473CB /* LaunchScreen.storyboard */,
 				0E5AE5812872F088003473CB /* Info.plist */,
-				0E9038482877B69000290DA8 /* GithubTest.swift */,
 				0E5D3AEB2878208F004509BF /* HomeViewController.swift */,
+				0E5D3B0D287879DE004509BF /* UIView.swift */,
 			);
 			path = BaedalUITask;
 			sourceTree = "<group>";
@@ -144,10 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E5D3B0E287879DF004509BF /* UIView.swift in Sources */,
 				0E5D3AEC2878208F004509BF /* HomeViewController.swift in Sources */,
 				0E5AE5782872F085003473CB /* ViewController.swift in Sources */,
 				0E5AE5742872F085003473CB /* AppDelegate.swift in Sources */,
-				0E9038492877B69000290DA8 /* GithubTest.swift in Sources */,
 				0E5AE5762872F085003473CB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
