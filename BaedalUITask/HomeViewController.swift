@@ -36,5 +36,4 @@ class HomeViewController: UIViewController {
         // 상단뷰 하단의 2개 모서리만 둥글게 설정
         topView.roundCorners(cornerRadius: 8, maskedCorners: [.layerMinXMaxYCorner, .layerMaxXMaxYCorner])
     }
-
 }
